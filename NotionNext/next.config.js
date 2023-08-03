@@ -31,6 +31,7 @@ const themes = scanSubdirectories(path.resolve(__dirname, 'themes'))
 module.exports = withBundleAnalyzer({
   assetPrefix: '/docs/',
   basePath: '/docs',
+  distDir: 'build',
   images: {
     // 图片压缩
     formats: ['image/avif', 'image/webp'],
