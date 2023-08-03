@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8641],{18641:function(E,_,e){e.r(_);var N=e(83454);let T={INDEX_PAGE:"about",MENU_CATEGORY:!0,MENU_TAG:!0,MENU_ARCHIVE:!0,MENU_SEARCH:!0,WIDGET_REVOLVER_MAPS:N.env.NEXT_PUBLIC_WIDGET_REVOLVER_MAPS||"false",WIDGET_TO_TOP:!0};_.default=T}}]);
