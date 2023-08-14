@@ -1,9 +1,19 @@
-# page 
-  LayoutIndex,
-  LayoutPostList,
-  LayoutSearch,
-  LayoutArchive,
-  LayoutSlug,
-  Layout404,
-  LayoutCategoryIndex,
-  LayoutTagIndex
+# 1. page 
+- LayoutIndex
+- LayoutPostList
+  - category
+  - tag
+- LayoutSearch
+- LayoutArchive
+- LayoutSlug 详情页，好像处理了很多不同类型的数据，比如pdf等
+  - ArticleLock
+  - ArticleInfo
+    - category
+    - publishDate
+    - lastEditedDay  
+  - NotionPage 
+  - ShareBar 
+  - Comment 
+- Layout404
+- LayoutCategoryIndex
+- LayoutTagIndex

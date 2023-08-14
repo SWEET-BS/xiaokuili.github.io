@@ -14,7 +14,6 @@ export async function getNotion(pageId) {
   if (!blockMap) {
     return null
   }
-
   const postInfo = blockMap?.block?.[idToUuid(pageId)].value
 
   return {
